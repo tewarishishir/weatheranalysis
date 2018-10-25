@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="carousel.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Merriweather|Rochester" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+  <meta charset="UTF-8">
+  <title>Latitude vs. Cloudiness</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<div class="white">
+        <nav class="navbar navbar-default" style="background-color: white; border-color: white;">
+                <div class="container-fluid">
+                    <div class="navbar-header header-box" >
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        </button>
+                        <div class="light-green header">
+                            <a class = "font-white" href="./landing.html">Lattitude</a>
+                        </div> 
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="./visualization-fig-1.html">Max Temperature</a></li>
+                                <li><a href="./visualization-fig-2.html">Humidity</a></li>
+                                <li><a href="./visualization-fig-3.html">Cloudiness</a></li>
+                                <li><a href="./visualization-fig-4.html">Wind Speed</a></li>
+                            </ul>
+                        </li>
+                        <li><a class = "font-grey" href="./comparisons.html">Comparison</a></li>
+                        <li><a class = "font-grey" href="./data.html">Data</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+</div>
+<body class="grey">
+        <div class= "container">
+                <div class = "row">
+                    <div class = "col-sm-12 col-md-8">
+                        <div class="row box-1">
+                            <div class = "col-md-12">
+                                <h1 class="heading">Cloudiness</h1>
+                                <div class="hline"></div>
+                            </div>
+                            <div class = "col-md-12">
+                                    <div class="row">
+                                        <div class = "col-md-12">
+                                            <a href="./visualization-fig-3.html"><img src="./Resources/assets/images/Fig3.png" alt="Latitude vs. Cloudiness" height="300" width="330" class="img"></a>
+                                            <p class="paragraph">
+                                                    By City Latitude vs Cloudiness chart, it doesn’t look like any direct relationship between latitude and cloudiness. However most of the cities are in high(more than 80%) or in less(less than 5%) cloudiness range.
+                                            </p> 
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-sm-12 col-md-4">
+                        <div class="box-2">
+                            <div class = "col-sm-12 col-md-12">
+                                <h2 class="heading">Visualizations</h2>
+                                <div class="hline"></div>
+                                <div class="pad-bottom"></div>
+                            </div>
+                            <div class = "row" style="padding-left:20px">
+                                <a href="./visualization-fig-1.html"><img src="./Resources/assets/images/Fig1.png" alt="Latitude vs. Max Temperature" height="150" width="150" ></a>
+                                <a href="./visualization-fig-2.html"><img src="./Resources/assets/images/Fig2.png" alt="Latitude vs. Humidity" height="150" width="150" ></a>
+                                <a href="./visualization-fig-3.html"><img src="./Resources/assets/images/Fig3.png" alt="Latitude vs. Cloudiness" height="150" width="150" class="img-border"></a>
+                                <a href="./visualization-fig-4.html"><img src="./Resources/assets/images/Fig4.png" alt="Latitude vs. Wind Speed" height="150" width="150"></a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+
+    <div class="footer">
+            <div class="row hr"></div>
+            <p style="padding-top:10px">© Copyright Coding 2018 </p>
+    </div>
+</body>
+
+</html>
